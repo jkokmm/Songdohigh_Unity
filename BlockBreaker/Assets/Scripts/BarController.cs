@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class BarController : MonoBehaviour {
 
+    public bool autoPlay = false;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -11,6 +13,8 @@ public class BarController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.position = new Vector3(FindObjectOfType<BallController>().transform.position.x, transform.position.y, transform.position.z);
+
+        if (autoPlay)
+            transform.position = new Vector3(FindObjectOfType<BallController>().transform.position.x, transform.position.y, transform.position.z);
     }
 }
