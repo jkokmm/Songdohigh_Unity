@@ -1,19 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BlockController : MonoBehaviour {
     public int maxHits = 3;
     public int hitCounter = 0;
-    // Use this for initialization
-    void Start () {
-        //Debug.Log("new block started");
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        
-	}
 
     private void OnCollisionExit2D(Collision2D collision)
     {
@@ -21,7 +10,6 @@ public class BlockController : MonoBehaviour {
         {
             Destroy(gameObject);
             GameObject.Find("LevelManager").GetComponent<LevelManager>().BlockDestroyed();
-            //SendMessage("BlockDestroyed", );
         }
 
         if (hitCounter == 1)

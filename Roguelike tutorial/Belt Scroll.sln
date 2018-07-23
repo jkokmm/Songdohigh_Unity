@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belt Scroll", "Assembly-CSharp.csproj", "{36BA80CE-0D65-F90A-39B0-7AA292E1904E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belt Scroll", "Assembly-CSharp-Editor.csproj", "{EC24C0C8-723D-2125-8500-DDC50EEB8FAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36BA80CE-0D65-F90A-39B0-7AA292E1904E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36BA80CE-0D65-F90A-39B0-7AA292E1904E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36BA80CE-0D65-F90A-39B0-7AA292E1904E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36BA80CE-0D65-F90A-39B0-7AA292E1904E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC24C0C8-723D-2125-8500-DDC50EEB8FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC24C0C8-723D-2125-8500-DDC50EEB8FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC24C0C8-723D-2125-8500-DDC50EEB8FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC24C0C8-723D-2125-8500-DDC50EEB8FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
